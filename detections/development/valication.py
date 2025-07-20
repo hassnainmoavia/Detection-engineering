@@ -7,6 +7,8 @@ import os
 #with open(file,"rb") as toml:
 #    alert = tomllib.load(toml)
 
+failure = 0
+
 for root, dirs, files in os.walk("detections/"):
     for file in files:
         if file.endswith(".toml"):
@@ -38,8 +40,13 @@ for root, dirs, files in os.walk("detections/"):
     
                   if missing_fields:
                     print("The following fields do not exist in " + file + ":" + str(missing_fields))
+                    failure = 1
                   else:
                     print("Validation passed for: " + file)
+
+
+if failure != 0:
+    sys.exit(1)
 
 #print(required_fields)
 #print("\n")
