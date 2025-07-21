@@ -1,3 +1,9 @@
+[metadata]
+creation_date = "2025/06/11"
+integration = ["endpoint"]
+maturity = "production"
+updated_date = "2025/02/14"
+
 [rule]
 author = ["Hassnain Moavia"]
 description = "From looking at the sysmon_operational logs, we're triggering on powershell running through a bat file execution."

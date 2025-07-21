@@ -1,3 +1,9 @@
+[metadata]
+creation_date = "2025/07/11"
+integration = ["endpoint"]
+maturity = "production"
+updated_date = "2025/02/14"
+
 [rule]
 author = ["Hassnain Moavia"]
 description = "Triggers when more than 1000 queries to a web server have been observed in a 5 min window."

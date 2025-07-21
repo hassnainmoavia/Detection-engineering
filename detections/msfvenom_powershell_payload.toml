@@ -1,3 +1,9 @@
+[metadata]
+creation_date = "2025/06/11"
+integration = ["endpoint"]
+maturity = "production"
+updated_date = "2025/02/14"
+
 [rule]
 author = ["Hassnain Moavia"]
 description = "This alert triggers via sysmon data on a string of text that occurs out of the box with msfvenom."

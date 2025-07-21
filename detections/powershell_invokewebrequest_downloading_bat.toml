@@ -1,3 +1,9 @@
+[metadata]
+creation_date = "2025/06/11"
+integration = ["endpoint"]
+maturity = "production"
+updated_date = "2025/02/14"
+
 [rule]
 author = ["Hassnain Moavia"]
 description = "Using sysmon data, we're triggering on PowerShell logs where Invoke-WebRequest and .bat strings are observed."

@@ -1,3 +1,9 @@
+[metadata]
+creation_date = "2025/05/11"
+integration = ["endpoint"]
+maturity = "production"
+updated_date = "2025/02/14"
+
 [rule]
 author = ["Hassnain Moavia"]
 description = "This alert looks for both specific files and file extensions written to a file path containing Windows\\Temp\\."

@@ -1,3 +1,9 @@
+[metadata]
+creation_date = "2025/07/11"
+integration = ["endpoint"]
+maturity = "production"
+updated_date = "2025/02/14"
+
 [rule]
 author = ["Hassnain Moavia"]
 description = "Using Zeek HTTP data, we're looking at .bat file extensions on any destination port that isn't port 80."
