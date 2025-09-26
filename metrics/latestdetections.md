@@ -14,7 +14,7 @@
 
 | Alert | Date | Author | Risk Score | Severity |
 | --- | --- | --- | --- | --- |
-|Data Archive for Potential Exfil|2025/07/11|['Hassnain Moavia']|60|medium|
-|Bat files observed in HTTP Traffic on Unusual Port |2025/07/11|['Hassnain Moavia']|32|medium|
 |Excessive Web Traffic|2025/07/11|['Hassnain Moavia']|96|low|
 |Data Exfiltration Observed via FTP|2025/07/11|['Hassnain Moavia']|50|high|
+|Data Archive for Potential Exfil|2025/07/11|['Hassnain Moavia']|60|medium|
+|Bat files observed in HTTP Traffic on Unusual Port |2025/07/11|['Hassnain Moavia']|32|medium|
